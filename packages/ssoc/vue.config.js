@@ -7,7 +7,7 @@ module.exports = defineConfig({
       entry: "./main",
     },
   },
-  publicPath: "/example/ssoc",
+  publicPath: "/dash/ssoc",
   // 选项
   devServer: {
     port: "9000",

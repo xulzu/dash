@@ -8,7 +8,7 @@ module.exports = defineConfig({
       entry: "./main",
     },
   },
-  publicPath: "/example/ip",
+  publicPath: "/dash/ip",
   chainWebpack(config) {
     config.resolve.alias.set("@soc", path.resolve("./"));
   },
