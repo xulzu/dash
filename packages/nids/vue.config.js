@@ -7,7 +7,7 @@ module.exports = defineConfig({
       entry: "./main",
     },
   },
-  publicPath: "/example/nids",
+  publicPath: "/dash/nids",
   chainWebpack(config) {
     config.resolve.alias.set("@", path.resolve("./"));
   },
