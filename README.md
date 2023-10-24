@@ -24,15 +24,10 @@ npm i axios -w ssoc
 npm run serve -w packages/ssoc
 ```
 
-###截图
-* [项目一](./example/nids)
-
+###截图 [项目预览](https://xulzu.github.io/dash/)
+ 
 ![项目一img](./example/nids/example.png)
 
-* [项目二](./example/ssoc)
-
 ![项目一img](./example/ssoc/example.png)
-
-* [项目三](./example/ip)
 
 ![项目一img](./example/ip/example.png)
