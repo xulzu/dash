@@ -1,0 +1,97 @@
+:root {
+  --themeColor: #fff;
+  --themeBKG: #061537;
+  --baseColor: #01c0ff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body,
+div {
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}
+.angle1 {
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  border-top: 1px solid #1c5ab3;
+  border-left: 1px solid #1c5ab3;
+}
+
+.angle2 {
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  right: 0;
+  border-top: 1px solid #1c5ab3;
+  border-right: 1px solid #1c5ab3;
+}
+
+.angle3 {
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #1c5ab3;
+  border-left: 1px solid #1c5ab3;
+}
+
+.angle4 {
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid #1c5ab3;
+  border-right: 1px solid #1c5ab3;
+}
+.angle1,
+.angle2,
+.angle3,
+.angle4 {
+  animation: angleAnimate 3s infinite;
+}
+@keyframes angleAnimate {
+  50% {
+    border-color: #4fd2dd;
+  }
+  100% {
+    border-color: #1c5ab3;
+  }
+}
+.chart-title {
+  display: inline-block;
+  color: #6eddf1;
+  border: 2px solid #6eddf1;
+  height: 18px;
+  padding: 0 2px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .chart-title-text {
+    position: relative;
+    font-size: 16px;
+    background: #09102e;
+    display: inline-block;
+  }
+}
+.tests {
+  color: #ff000000;
+}

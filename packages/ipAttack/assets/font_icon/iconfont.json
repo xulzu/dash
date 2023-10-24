@@ -1,0 +1,16 @@
+{
+  "id": "4129103",
+  "name": "安全大屏",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4736566",
+      "name": "活动告警",
+      "font_class": "huodonggaojing",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}

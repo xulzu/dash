@@ -1,0 +1,27 @@
+{
+  "name": "safe-data-show",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build-all": "run-p b-*",
+    "r-ip": "npm run serve -w packages/ipAttack",
+    "b-ip": "npm run build -w packages/ipAttack",
+    "r-so": "npm run serve -w packages/ssoc",
+    "b-so": "npm run build -w packages/ssoc",
+    "r-ni": "npm run serve -w packages/nids",
+    "b-ni": "npm run build -w packages/nids"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "ipattack": "file:packages/ipAttack"
+  },
+  "engines": {
+    "node": ">16",
+    "npm": ">= 7.0.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
